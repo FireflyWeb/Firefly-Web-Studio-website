@@ -1,0 +1,66 @@
+/*********************/
+/*** GENERAL STYLE ***/
+/*********************/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, 'Arimo', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+#header-wrapper {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+#split-homepage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 650px;
+  z-index: 1;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.view {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.after {
+  z-index: 200;
+  background: #EC6367;
+}
+
+.content-split-homepage {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+#handlebar {
+  cursor: move;
+  z-index: 1000;
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  background-color: black;
+}
+
+    /*napraviti fensi efekat za  razdelnicu - prozirnost, blur...*/
